@@ -147,3 +147,175 @@ nav {
   font-size: 16px;
   line-height: 1.6;
 }
+#pricing {
+  padding: 100px 60px;
+
+  background: #f8fafc;
+}
+
+#pricing h1 {
+  text-align: center;
+
+  font-size: 56px;
+
+  color: #111827;
+
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  text-align: center;
+
+  color: #6b7280;
+
+  margin-bottom: 60px;
+
+  font-size: 18px;
+}
+
+.pricing-container {
+  max-width: 1200px;
+
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+}
+
+.price-card {
+  background: white;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 16px;
+
+  padding: 28px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  transition: 0.3s;
+}
+
+.price-card:hover {
+  transform: translateY(-8px);
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.price-card h5 {
+  color: #9ca3af;
+
+  font-size: 13px;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 12px;
+}
+
+.price-card h2 {
+  font-size: 54px;
+
+  color: #111827;
+}
+
+.price-card span {
+  color: #6b7280;
+
+  margin-bottom: 24px;
+}
+
+.price-card hr {
+  border: none;
+
+  border-top: 1px solid #e5e7eb;
+
+  margin-bottom: 24px;
+}
+
+.price-card ul {
+  list-style: none;
+
+  flex: 1;
+}
+
+.price-card li {
+  margin-bottom: 16px;
+
+  color: #374151;
+
+  position: relative;
+
+  padding-left: 18px;
+
+  line-height: 1.5;
+}
+
+.price-card li::before {
+  content: "•";
+
+  color: #2563eb;
+
+  position: absolute;
+
+  left: 0;
+}
+
+.price-card button {
+  margin-top: 30px;
+
+  height: 52px;
+
+  border-radius: 10px;
+
+  border: 1px solid #2563eb;
+
+  background: white;
+
+  color: #2563eb;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.price-card button:hover {
+  background: #2563eb;
+
+  color: white;
+}
+
+.active {
+  background: #0f172a;
+
+  color: white;
+}
+
+.active h2,
+.active h5,
+.active span,
+.active li {
+  color: white;
+}
+
+.active hr {
+  border-color: #334155;
+}
+
+.active button {
+  background: #2563eb;
+
+  color: white;
+
+  border: none;
+}
+
+.active button:hover {
+  background: #1d4ed8;
+}
