@@ -1,0 +1,2 @@
+I am making a Defcon 2026 webpage using html and css. I already made the navbar Banner( hero ) section, Secure Your Spot (Pricing) Section. Now, suggest me a relavant section for mmy project.
+Make this schedule section on this. And, give me the html and css codes.
